@@ -8,14 +8,11 @@
 </head>
 <body>
     <h1>Exercice 1 Partie 3 : Les boucles PHP</h1>
-        <p>
+        <ul>
             <?php
             $number = 0;
-            while ($number <= 10)
-            {
-                echo $number++;
-            }
-            ?>
-        </p>
+            while ($number <= 10){?>
+            <li><?= $number++;}?></li>                
+        </ul>         
 </body>
 </html>
